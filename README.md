@@ -1,10 +1,6 @@
-# ![TouchVisualizer](misc/logo2.png)
+# TouchVisualizer - SPM Fork
 
-[![Version](https://img.shields.io/cocoapods/v/TouchVisualizer.svg?style=flat)](http://cocoadocs.org/docsets/TouchVisualizer) [![License](https://img.shields.io/cocoapods/l/TouchVisualizer.svg?style=flat)](http://cocoadocs.org/docsets/TouchVisualizer) [![Platform](https://img.shields.io/cocoapods/p/TouchVisualizer.svg?style=flat)](http://cocoadocs.org/docsets/TouchVisualizer)
-[![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/morizotter/TouchVisualizer)
-[![Circle CI](https://circleci.com/gh/morizotter/TouchVisualizer/tree/master.svg?style=shield&circle-token=b7eb2e179731634bcac95d1e4f8e90b837b092e3)](https://circleci.com/gh/morizotter/TouchVisualizer/tree/master) [![Join the chat at https://gitter.im/morizotter/TouchVisualizer](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/morizotter/TouchVisualizer?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
-
-TouchVisualizer is a lightweight pure Swift implementation for visualising touches on the screen.
+TouchVisualizer is a lightweight pure Swift implementation for visualising touches on the screen. This is a fork built for implementation with SPM.  Everything not relevant to the package install has been removed.
 
 ## Features
 - Works with just **a single line of code**!
@@ -15,68 +11,10 @@ TouchVisualizer is a lightweight pure Swift implementation for visualising touch
 - Customise the finger-points image and colour.
 - Supports iPhone and iPad in both portrait and landscape mode.
 
-## How it looks
-### Portrait:
-![one](misc/one.gif)
-### Landscape:
-![two](misc/two.gif)
-### Robots:
-![three](misc/three.gif)
-### In-app implementation:
-![four](misc/four.gif)
-
-It's fun!
-
-## Runtime Requirements
-
-- Swift 4.0
-- Xcode 9.2
-- iOS9.0 or later
-
-TouchVisualizer works with Swift 3 from version 3.0.0.
 
 ## Installation and Setup
-**Note:** Embedded frameworks require a minimum deployment target of iOS 9.0.
 
-**Information:** To use TouchVisualizer with a project targeting iOS 8.0 or lower, you must include the `TouchVisualizer.swift` source file directly in your project.
 
-### Installing with CocoaPods
-
-[CocoaPods](http://cocoapods.org) is a centralised dependency manager that automates the process of adding libraries to your Cocoa application. You can install it with the following command:
-
-```bash
-$ gem update
-$ gem install cocoapods
-$ pods --version
-```
-
-To integrate TouchVisualizer into your Xcode project using CocoaPods, specify it in your `Podfile` and run `pod install`.
-
-```bash
-platform :ios, '8.0'
-use_frameworks!
-pod "TouchVisualizer", '~>3.0.0'
-```
-
-### Installing with Carthage
-Carthage is a decentralised dependency manager that automates the process of adding frameworks to your Cocoa application.
-
-You can install Carthage with [Homebrew](http://brew.sh/) using the following command:
-
-```bash
-$ brew update
-$ brew install carthage
-```
-
-To integrate TouchVisualizer into your Xcode project using Carthage, specify it in your `Cartfile`:
-
-```ogdl
-github "morizotter/TouchVisualizer" "3.0.0"
-```
-
-### Manual Installation
-
-To install TouchVisualizer without a dependency manager, please add all of the files in `/Pod` to your Xcode Project.
 
 ## Usage
 
